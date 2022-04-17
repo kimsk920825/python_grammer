@@ -1,10 +1,10 @@
-# í´ë¡œì ¸ ì˜ì—­ì˜ ììœ ë³€ìˆ˜ëŠ” ë‚´ê°€ ì‚¬ìš©í•˜ë ¤ëŠ” í•¨ìˆ˜ ë°”ê¹¥ì—ì„œ ì§€ì •ëœ ë³€ìˆ˜.
+# ?´ë¡œì ¸ ?˜?—­?˜ ??œ ë³??ˆ˜?Š” ?‚´ê°? ?‚¬?š©?•˜? ¤?Š” ?•¨?ˆ˜ ë°”ê¹¥?—?„œ ì§?? •?œ ë³??ˆ˜.
 
 
 def closure_ex1():
-    # ììœ ë³€ìˆ˜
-    # í´ë¡œì € ì˜ì—­
-    # ì´ ì˜ì—­ì˜ ë³€ìˆ˜ëŠ” íŒŒì´ì¬ì´ ì €ì¥í•´ë‘”ë‹¤.
+    # ??œ ë³??ˆ˜
+    # ?´ë¡œì?? ?˜?—­
+    # ?´ ?˜?—­?˜ ë³??ˆ˜?Š” ?ŒŒ?´?¬?´ ????¥?•´?‘”?‹¤.
     series = []
 
     def average(value):
@@ -32,5 +32,5 @@ print("co_cellvars>>>")
 print(average_function.__code__.co_cellvars)
 print()
 print("__closure__>>>")
-print(average_function.__closure__)  # ë¦¬ìŠ¤íŠ¸ ì˜¤ë¸Œì íŠ¸
+print(average_function.__closure__)  # ë¦¬ìŠ¤?Š¸ ?˜¤ë¸Œì ?Š¸
 print(average_function.__closure__[0].cell_contents)
